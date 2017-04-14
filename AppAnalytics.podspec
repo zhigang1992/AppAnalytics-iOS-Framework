@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.frameworks = "MobileCoreServices", "SystemConfiguration", "CoreLocation", "StoreKit", "Foundation"
   spec.vendored_frameworks = "AppAnalytics.framework"
+  spec.source_files = "AppAnalytics.framework/Versions/A/Headers/AppAnalytics.h"
   spec.public_header_files = "AppAnalytics.framework/Versions/A/Headers/AppAnalytics.h"
   spec.xcconfig = { "OTHER_LDFLAGS" => "-all_load" }
 
