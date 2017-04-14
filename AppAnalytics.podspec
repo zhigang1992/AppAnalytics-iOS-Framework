@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/AppAnalytics-io/AppAnalytics-iOS-Framework.git", :tag => "1.2.1" }
   spec.requires_arc = true
   spec.frameworks = "MobileCoreServices", "SystemConfiguration", "CoreLocation", "StoreKit", "Foundation"
-  spec.vendored_frameworks = "AppAnalytics.a"
+  spec.vendored_libraries = "AppAnalytics.a"
   spec.source_files = "AppAnalytics.h"
   spec.public_header_files = "AppAnalytics.h"
   # spec.xcconfig = { "OTHER_LDFLAGS" => "-all_load" }
